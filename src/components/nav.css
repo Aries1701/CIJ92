@@ -1,0 +1,118 @@
+/* .c{
+    position: fixed; 
+    top: 0; 
+    z-index: 50; 
+    width: 100%; 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+    backdrop-blur: blur(4px); 
+    background: #1a1927;
+} */
+.nav{
+    width: 100%; 
+    justify-content: space-between; 
+
+@media (min-width: 768px) { 
+    display: flex; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    align-items: center; 
+ }
+}
+.nav-s{
+    display: flex; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    justify-content: space-between; 
+    align-items: center; 
+
+
+@media (min-width: 768px) { 
+     display: block; 
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+ }
+}
+.nav-t{
+    color: #ffffff; 
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    font-weight: 700; 
+
+}
+.h-nav{
+    @media (min-width: 768px) { 
+        display: none; 
+       }
+}
+.btn{
+    padding: 0.5rem; 
+    color: #374151; 
+    border-radius: 0.375rem; 
+    outline: 0; 
+}
+.tex{
+    color: #ffffff; 
+    width: 1.5rem; 
+    height: 1.5rem; 
+
+}
+.nav-item{
+    @media (min-width: 768px) { 
+        margin-left: 5rem; 
+       }
+}
+/* .item{
+    padding-bottom: 0.75rem; 
+    margin-top: 2rem; 
+    flex: 1 1 0%; 
+    justify-self: center; 
+
+
+@media (min-width: 768px) { 
+    display: block; 
+    padding-bottom: 0; 
+    
+    margin-top: 0; 
+ }
+} */
+.s-item{
+    margin-top: 2rem; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    color: #ffffff; 
+    text-align: center; 
+    text-decoration: none;
+    
+@media (min-width: 768px) { 
+     display: flex; 
+    margin-left: 2rem; 
+    margin-top: 0; 
+    
+ }
+}
+
+.t{
+    position: relative; 
+    color: #ffffff; 
+    text-align: center; 
+
+}
+.form{
+    margin-left: auto; 
+}
+.search{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    color: #ffffff;
+    background-color: #374151;
+    border-radius: 9999px; 
+    outline: none; 
+}
+.p-name{
+    font-size: 40px;
+    margin-top: 1px;
+    height: 10px;
+}

@@ -1,37 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-   html {
-      @apply scroll-smooth;
-   }
-
-   body {
-      @apply font-poppins bg-[#1a1927];
-   }
-
-   section {
-      @apply py-8;
-   }
+*{
+   background: #1a1927;
+   color: #fff;
+   text-decoration: none;
+   list-style-type: none;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
-@layer components {
-}
 
-@media screen and (min-width: 768px) {
-   .swiper-container {
-      width: 768px;
-   }
-}
 
-.swiper-wrapper {
-   padding-bottom: 40px;
-}
-.swiper-pagination-bullet-active {
-   background: #007aff !important;
-}
 
-.swiper-pagination-bullet {
-   background: #fff;
-}

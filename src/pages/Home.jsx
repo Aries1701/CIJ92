@@ -1,11 +1,10 @@
-import List from "../components/homepage/List";
-import Recommended from "../components/homepage/SeasonNow";
+import Explore from "../components/homepage/Explore";
 
 export default function Home() {
    return (
       <div className="container">
-         <Recommended />
-         <List />
+         <Explore />
+         
       </div>
    );
 }
